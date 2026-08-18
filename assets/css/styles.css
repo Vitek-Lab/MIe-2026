@@ -298,8 +298,8 @@ p:last-child { margin-bottom: 0; }
 .sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.25rem; margin-top: 1.5rem; }
 .sponsors a { display: inline-flex; }
 .sponsor-logo { width: auto; display: block; }
-.sponsor-logo--khoury { height: 42px; }
-.sponsor-logo--barnett { height: 116px; }
+.sponsor-logo--khoury { height: 40px; }
+.sponsor-logo--barnett { height: 54px; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -341,13 +341,11 @@ p:last-child { margin-bottom: 0; }
 /* ---------- Scene photos ---------- */
 .scene { display: block; border-radius: var(--radius); box-shadow: var(--shadow); }
 .scene--hero { margin-top: 2.75rem; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: center 40%; }
-.scene--fill { width: 100%; height: auto; }
-.scene--portrait { width: auto; max-width: 100%; max-height: 460px; margin-inline: auto; }
 
 /* Two-column media (text + image) */
-.media { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
-.media--top { align-items: start; }
-.media__text { max-width: 34rem; }
+.media { display: grid; grid-template-columns: 1fr auto; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
+.media__text { max-width: 40rem; }
+.media .scene { max-height: 380px; width: auto; max-width: 100%; height: auto; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 820px) {
