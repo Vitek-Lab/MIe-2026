@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
@@ -42,15 +42,13 @@
     <!-- Hero -->
     <section class="hero">
       <div class="container">
-        <p class="hero__meta">
-          <span>November 2–6, 2026</span>
-          <span class="dot">•</span>
-          <span>Online</span>
-          <span class="dot">•</span>
-          <span>10:00 a.m.–12:30 p.m. EST</span>
-        </p>
-        <p class="tz-alt">7:00–9:30 a.m. PST&nbsp;&nbsp;·&nbsp;&nbsp;4:00–6:30 p.m. CET</p>
         <h1>May Institute Essentials</h1>
+        <p class="hero__meta">
+          <span><strong>November 2&ndash;6, 2026</strong></span>
+          <span class="dot" aria-hidden="true">•</span>
+          <span><strong>10:00 a.m.&ndash;12:30 p.m. EST</strong></span>
+        </p>
+        <p class="tz-alt">7:00&ndash;9:30 a.m. PST&nbsp;&nbsp;·&nbsp;&nbsp;4:00&ndash;6:30 p.m. CET</p>
         <p class="hero__sub">A condensed, fully virtual May Institute: one week of computation and statistics for mass spectrometry&ndash;based proteomics.</p>
         <div class="hero__actions">
           <a class="btn btn--primary" href="#register">Register</a>
@@ -65,12 +63,12 @@
       <div class="container">
         <div class="section__head">
           <p class="section__eyebrow">About</p>
-          <h2>A shorter, online May Institute</h2>
+          <h2>Online, and just the essentials</h2>
         </div>
         <div class="media">
           <div class="media__text">
-            <p>May Institute Essentials is a condensed, fully virtual version of the May Institute, focused on the computational and statistical analysis of quantitative mass spectrometry&ndash;based proteomics. Over one week, sessions combine short lectures with general discussion, led by the developers of the methods and software they teach.</p>
-            <p>The program is intended for both newcomers and experienced researchers who would like to strengthen their computational and statistical expertise. We also welcome computer scientists, bioinformaticians, data scientists, statisticians, and engineers interested in working with data from modern biotechnologies. Sessions run each day from 10:00&nbsp;a.m. to 12:30&nbsp;p.m. Eastern Time.</p>
+            <p>May Institute Essentials is a condensed, fully virtual version of <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">May Institute</a>, focused on the <em>essential</em> building blocks of computational and statistical analysis of quantitative mass spectrometry&ndash;based proteomics and mass spectrometry imaging datasets. Over one week, sessions combine lectures with general discussion, led by the developers of the methods and software they teach.</p>
+            <p>The program is intended for early career researchers new to the field and tools as well as established scientists seeking to expand their expertise. Sessions run online each day from 10:00&nbsp;a.m. to 12:30&nbsp;p.m. Eastern Time. The schedule below outlines the topics we will be covering.</p>
             <p>Looking for the full, in-person program? See the <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">regular May Institute</a>.</p>
           </div>
           <img class="scene scene--fill" src="assets/img/scenes/IMG_7716.JPG" alt="Discussion at the whiteboard during a May Institute session" loading="lazy" />
@@ -83,8 +81,8 @@
       <div class="container">
         <div class="section__head">
           <p class="section__eyebrow">Schedule</p>
-          <h2>One week, two tracks</h2>
-          <p class="section__lead">Three days of MSstats followed by two days of Cardinal. Each session runs 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. EST <span class="tz-alt" style="margin:0; font-size:0.9em;">(7:00&ndash;9:30&nbsp;a.m. PST&nbsp;·&nbsp;4:00&ndash;6:30&nbsp;p.m. CET)</span>.</p>
+          <h2>One week, two courses</h2>
+          <p class="section__lead">Three days of <a href="https://msstats.org" target="_blank" rel="noopener">MSstats</a> followed by two days of <a href="https://cardinalmsi.org" target="_blank" rel="noopener">Cardinal</a>. Each online session runs 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. EST (7:00&ndash;9:30&nbsp;a.m. PST&nbsp;·&nbsp;4:00&ndash;6:30&nbsp;p.m. CET).</p>
         </div>
 
         <div class="schedule">
@@ -183,7 +181,7 @@
           </div>
         </div>
         <div id="register" style="margin-top: 2rem;">
-          <a class="btn btn--disabled" aria-disabled="true" href="#">Registration opens soon</a>
+          <button class="btn btn--disabled" type="button" disabled>Registration opens soon</button>
           <p class="schedule__note">Fee schedule is determined by the participant&rsquo;s primary affiliation. We may ask for proof of affiliation at or after registration.</p>
           <p class="schedule__note"><strong>Registered participants will be able to sign up for private sessions with instructors. Details to follow.</strong></p>
         </div>
@@ -200,12 +198,14 @@
         <div class="media">
           <div class="media__text">
             <p class="lead"><a href="https://www.khoury.northeastern.edu" target="_blank" rel="noopener">Khoury College of Computer Sciences</a> and the <a href="https://research.northeastern.edu/institute-or-center/barnett-institute-of-chemical-and-biological-analysis/" target="_blank" rel="noopener">Barnett Institute for Chemical and Biological Analysis</a> at Northeastern University.</p>
-            <!-- Replace with logo images once rights-cleared assets are provided:
             <div class="sponsors">
-              <img src="assets/img/logos/khoury.svg" alt="Khoury College of Computer Sciences" />
-              <img src="assets/img/logos/barnett.svg" alt="Barnett Institute" />
+              <a href="https://www.khoury.northeastern.edu" target="_blank" rel="noopener">
+                <img class="sponsor-logo sponsor-logo--khoury" src="assets/img/logos/khoury.png" alt="Khoury College of Computer Sciences" loading="lazy" />
+              </a>
+              <a href="https://research.northeastern.edu/institute-or-center/barnett-institute-of-chemical-and-biological-analysis/" target="_blank" rel="noopener">
+                <img class="sponsor-logo sponsor-logo--barnett" src="assets/img/logos/barnett.webp" alt="Barnett Institute for Chemical and Biological Analysis" loading="lazy" />
+              </a>
             </div>
-            -->
           </div>
           <img class="scene scene--portrait" src="assets/img/scenes/IMG_7521.jpeg" alt="The May Institute at Khoury College, Northeastern University" loading="lazy" />
         </div>
@@ -221,7 +221,7 @@
           <p>A condensed, fully virtual May Institute for computation and statistics in mass spectrometry&ndash;based proteomics.</p>
         </div>
         <div class="footer">
-          <h4>Program</h4>
+          <h3>Program</h3>
           <ul>
             <li><a href="index.html#schedule">Schedule</a></li>
             <li><a href="index.html#cost">Cost</a></li>
@@ -230,7 +230,7 @@
           </ul>
         </div>
         <div class="footer">
-          <h4>Related</h4>
+          <h3>Related</h3>
           <ul>
             <li><a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">May Institute</a></li>
             <li><a href="https://olga-vitek-lab.khoury.northeastern.edu" target="_blank" rel="noopener">Olga Vitek Lab</a></li>
