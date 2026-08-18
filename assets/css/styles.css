@@ -90,6 +90,7 @@ p:last-child { margin-bottom: 0; }
 }
 .section__lead { font-size: 1.1rem; color: var(--muted); }
 .lead { font-size: 1.15rem; color: var(--muted); }
+.text-red { color: var(--red); }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -104,14 +105,14 @@ p:last-child { margin-bottom: 0; }
   border-radius: 999px;
   border: 1.5px solid transparent;
   cursor: pointer;
-  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .05s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, box-shadow .15s ease, transform .1s ease;
 }
 .btn:hover { text-decoration: none; }
 .btn:active { transform: translateY(1px); }
-.btn--primary { background: var(--red); color: #fff; }
-.btn--primary:hover { background: var(--red-dark); color: #fff; }
+.btn--primary { background: var(--red); color: #fff; box-shadow: 0 2px 8px rgba(200, 16, 46, 0.22); }
+.btn--primary:hover { background: var(--red-dark); color: #fff; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(200, 16, 46, 0.32); }
 .btn--ghost { background: transparent; color: var(--ink); border-color: var(--border); }
-.btn--ghost:hover { border-color: var(--ink); color: var(--ink); }
+.btn--ghost:hover { border-color: var(--red); color: var(--red); box-shadow: 0 4px 12px rgba(200, 16, 46, 0.12); }
 .btn--disabled,
 .btn:disabled,
 .btn[aria-disabled="true"] {
@@ -252,6 +253,14 @@ p:last-child { margin-bottom: 0; }
 .price__amount span { font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--muted); }
 .price__note { color: var(--muted); font-size: 0.95rem; }
 
+/* Card hover: subtle lift + red highlight */
+.day, .price { transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+.day:hover, .price:hover {
+  transform: translateY(-3px);
+  border-color: rgba(200, 16, 46, 0.35);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 12px 28px rgba(200, 16, 46, 0.12);
+}
+
 /* ---------- Speakers ---------- */
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.75rem; align-items: start; }
 .person { text-align: left; }
@@ -289,8 +298,8 @@ p:last-child { margin-bottom: 0; }
 .sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.25rem; margin-top: 1.5rem; }
 .sponsors a { display: inline-flex; }
 .sponsor-logo { width: auto; display: block; }
-.sponsor-logo--khoury { height: 44px; }
-.sponsor-logo--barnett { height: 104px; }
+.sponsor-logo--khoury { height: 42px; }
+.sponsor-logo--barnett { height: 116px; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -337,6 +346,7 @@ p:last-child { margin-bottom: 0; }
 
 /* Two-column media (text + image) */
 .media { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.media--top { align-items: start; }
 .media__text { max-width: 34rem; }
 
 /* ---------- Responsive ---------- */
