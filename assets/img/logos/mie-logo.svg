@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 560" role="img" aria-label="May Institute essentials 2026">
+  <title>May Institute essentials 2026</title>
+  <!-- Editable wordmark. Change the text nodes, colors, or weights directly.
+       Colors: black #111111, Northeastern red #C8102E, white #FFFFFF -->
+  <style>
+    .wordmark { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; }
+    .year     { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; }
+    .essentials { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 200; }
+  </style>
+
+  <!-- Main wordmark -->
+  <text class="wordmark" x="0" y="300" font-size="300" letter-spacing="-8" fill="#111111">May Institute</text>
+
+  <!-- 2026 badge (top right) -->
+  <rect x="1740" y="24" width="336" height="150" fill="#C8102E"/>
+  <text class="year" x="1908" y="146" font-size="150" letter-spacing="-4" fill="#FFFFFF" text-anchor="middle">2026</text>
+
+  <!-- essentials, thin red, below the wordmark -->
+  <text class="essentials" x="4" y="500" font-size="196" letter-spacing="2" fill="#C8102E">essentials</text>
+</svg>
