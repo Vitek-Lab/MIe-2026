@@ -50,7 +50,7 @@ body {
 img { max-width: 100%; display: block; }
 /* Keep images in the standard dynamic range so HDR photos don't make the
    rest of the page appear dimmed on HDR displays (progressive enhancement). */
-img, .skyline { dynamic-range-limit: standard; }
+img { dynamic-range-limit: standard; }
 a { color: var(--red); text-decoration: none; }
 a:hover { color: var(--red-dark); text-decoration: underline; }
 
@@ -282,16 +282,6 @@ p:last-child { margin-bottom: 0; }
 /* ---------- Sponsors ---------- */
 .sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; }
 .sponsors img { height: 46px; width: auto; opacity: 0.9; }
-
-/* ---------- Skyline band ---------- */
-.skyline {
-  width: 100%;
-  height: clamp(200px, 30vw, 340px);
-  background-image: url("../img/backgrounds/charles-skyline.jpg");
-  background-size: cover;
-  background-position: center 52%;
-  background-repeat: no-repeat;
-}
 
 /* ---------- Footer ---------- */
 .site-footer {
