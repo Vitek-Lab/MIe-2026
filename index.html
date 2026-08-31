@@ -9,12 +9,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/img/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-152x152.png" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-
-  <!-- DRAFT banner: local review only. Remove before deploying. -->
-  <div class="draft-banner">Draft — content pending confirmation. Not yet published.</div>
 
   <header class="site-header">
     <nav class="nav container" aria-label="Primary">
@@ -65,11 +66,11 @@
           <div class="media__text">
             <div class="section__head">
               <p class="section__eyebrow">About</p>
-              <h2>Online, and just the essentials</h2>
+              <h2>Online, just the essentials</h2>
             </div>
             <p>By popular demand, we are launching May Institute Essentials: a condensed, fully virtual version of <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">May Institute</a>. Over one week, sessions combine lectures with general discussion, led by the developers of the methods and software they teach.</p>
             <p>The program is intended for early career researchers new to the field and tools as well as established scientists seeking to expand their expertise. Sessions run online each day from 10:00&nbsp;a.m. to 12:30&nbsp;p.m. Eastern Time. The schedule below outlines the topics we will be covering.</p>
-            <p><strong>May Institute Essentials does not replace the regular, in person May Institute.</strong> Looking for the full, in-person program? See the <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">regular May Institute</a>.</p>
+            <p><strong>May Institute Essentials does not replace the regular, in-person May Institute.</strong> Looking for the full, in-person program? See the <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">regular May Institute</a>.</p>
           </div>
           <img class="scene" src="assets/img/scenes/IMG_7716.JPG" alt="Discussion at the whiteboard during a May Institute session" loading="lazy" />
         </div>
@@ -81,7 +82,7 @@
       <div class="container">
         <div class="section__head">
           <p class="section__eyebrow">Schedule</p>
-          <h2>One week, two courses</h2>
+          <h2>One week, five sessions</h2>
           <p class="section__lead">Three days of <a href="https://msstats.org" target="_blank" rel="noopener">MSstats</a> followed by two days of <a href="https://cardinalmsi.org" target="_blank" rel="noopener">Cardinal</a>. Each online session runs 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. EST (7:00&ndash;9:30&nbsp;a.m. PST&nbsp;·&nbsp;4:00&ndash;6:30&nbsp;p.m. CET).</p>
         </div>
 
@@ -94,9 +95,10 @@
             </div>
             <div class="day__what">
               <span class="day__track">MSstats</span>
-              <div class="day__title">MSstats — Day 1</div>
+              <div class="day__title">MSstats Day 1: Differential analysis of label-free proteomics experiments</div>
               <div class="day__topic">Lecture title and topic to be announced</div>
               <div class="day__people">Devon Kohler, Sarah Szvetecz, and Tony Wu</div>
+              <a class="day__course" href="msstats.html">MSstats course page &rarr;</a>
             </div>
           </article>
 
@@ -108,9 +110,10 @@
             </div>
             <div class="day__what">
               <span class="day__track">MSstats</span>
-              <div class="day__title">MSstats — Day 2</div>
+              <div class="day__title">MSstats Day 2: Special topics</div>
               <div class="day__topic">Lecture title and topic to be announced</div>
               <div class="day__people">Devon Kohler, Sarah Szvetecz, and Tony Wu</div>
+              <a class="day__course" href="msstats.html">MSstats course page &rarr;</a>
             </div>
           </article>
 
@@ -122,9 +125,10 @@
             </div>
             <div class="day__what">
               <span class="day__track">MSstats</span>
-              <div class="day__title">MSstats — Day 3</div>
+              <div class="day__title">MSstats Day 3: Interpretation with MSstats BioNet and INDRA</div>
               <div class="day__topic">Lecture title and topic to be announced</div>
               <div class="day__people">Devon Kohler, Sarah Szvetecz, and Tony Wu</div>
+              <a class="day__course" href="msstats.html">MSstats course page &rarr;</a>
             </div>
           </article>
 
@@ -136,9 +140,10 @@
             </div>
             <div class="day__what">
               <span class="day__track">Cardinal</span>
-              <div class="day__title">Cardinal — Day 1</div>
-              <div class="day__topic">Introduction to Cardinal for MSI: data structures, preprocessing, and visualization</div>
+              <div class="day__title">Cardinal Day 1: Introduction to Cardinal, preprocessing, and visualization</div>
+              <div class="day__topic">In this session we will cover the basics of Cardinal, beginning with Cardinal's data structures and the .imzML format as well as the basics of working with larger-than-memory datasets. We will then cover preprocessing of MSI data, including recalibration, peak picking, peak alignment, and normalization as well as common operations like subsetting and summarizing pixels and features. We will end with visualization of spectra and single ion images.</div>
               <div class="day__people">Kylie Bemis, Sai Srikanth Lakkimsetty, Ethan Rogers, and Yinyue Zhu</div>
+              <a class="day__course" href="cardinal.html">Cardinal course page &rarr;</a>
             </div>
           </article>
 
@@ -150,13 +155,14 @@
             </div>
             <div class="day__what">
               <span class="day__track">Cardinal</span>
-              <div class="day__title">Cardinal — Day 2</div>
-              <div class="day__topic">Statistical analysis and machine learning in Cardinal</div>
+              <div class="day__title">Cardinal Day 2: Case studies on statistics and machine learning with MSI data</div>
+              <div class="day__topic">This session will cover analysis of preprocessed MSI data. First we will cover region of interest (ROI) discovery using Cardinal's univariate and multivariate segmentation methods. We will then conclude with a case study of differential abundance between ROIs and experimental conditions.</div>
               <div class="day__people">Kylie Bemis, Sai Srikanth Lakkimsetty, Ethan Rogers, and Yinyue Zhu</div>
+              <a class="day__course" href="cardinal.html">Cardinal course page &rarr;</a>
             </div>
           </article>
         </div>
-        <p class="schedule__note">Lecture titles and daily topics will be added as the program is finalized.</p>
+        <p class="schedule__note">Lecture titles and topics will be updated as the program is finalized.</p>
       </div>
     </section>
 
@@ -186,7 +192,7 @@
           <ul>
             <li>Access to the full week of online sessions</li>
             <li>Interactive discussion with presenters</li>
-            <li>A 30-minute one-on-one consultation with developers of MSstats and/or Cardinal*</li>
+            <li>One-on-one consultations with developers of MSstats and/or Cardinal*</li>
             <li>Presentation materials including slides, code, and datasets</li>
             <li>Early access to presentation recordings</li>
           </ul>
