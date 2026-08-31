@@ -303,7 +303,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ---------- Sponsors ---------- */
-.sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.25rem; margin-top: 1.5rem; }
+.sponsors { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem 2.25rem; margin-top: 1.5rem; }
 .sponsors a { display: inline-flex; }
 .sponsor-logo { width: auto; display: block; }
 .sponsor-logo--khoury { height: 40px; }
