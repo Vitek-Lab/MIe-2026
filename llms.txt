@@ -1,0 +1,65 @@
+# May Institute Essentials 2026
+
+> May Institute Essentials is a condensed, fully virtual version of the May
+> Institute, covering computation and statistics for mass spectrometry-based
+> proteomics. It runs November 2-6, 2026, online. Sessions are led by the
+> developers of the methods and software they teach.
+
+Site: https://vitek-lab.github.io/MIe-2026/
+
+## Program at a glance
+
+- Dates: November 2-6, 2026 (Monday through Friday)
+- Time: 10:00 a.m. - 12:30 p.m. EST each day (7:00-9:30 a.m. PST, 4:00-6:30 p.m. CET)
+- Format: fully online; five sessions, one per day
+- Audience: early career researchers and established scientists in experimental
+  or computational proteomics
+- Cost: $50 academic, non-profit, and governmental; $100 commercial. A single
+  fee covers the full week.
+- Registration: not yet open as of this writing. The registration link will
+  appear at https://vitek-lab.github.io/MIe-2026/#register
+- Contact: mayinstitute@northeastern.edu
+- Host: May Institute, Barnett Institute and Khoury College of Computer
+  Sciences, Northeastern University
+
+Registration includes access to all sessions, interactive discussion with
+presenters, 1:1 office hours with the tool developers, presentation materials
+(slides, code, datasets), and early access to recordings.
+
+## Courses
+
+Days 1-3 cover MSstats; days 4-5 cover Cardinal.
+
+- [MSstats: statistics for mass spectrometry proteomics](https://vitek-lab.github.io/MIe-2026/msstats.html):
+  November 2-4, 2026. Statistical analysis of quantitative MS-based proteomic
+  experiments with MSstats: normalization, missing value imputation,
+  summarization of protein abundances, confidence intervals for fold changes,
+  testing for differential abundance, and multivariate analysis for biomarker
+  discovery. Day 3 covers biological interpretation with MSstatsBioNet and
+  INDRA. Taught by Devon Kohler, Sarah Szvetecz, Tony Wu, and Benjamin Gyori.
+  Assumes some prior experience with statistics and proteomics.
+- [Cardinal: analysis of mass spectrometry imaging data](https://vitek-lab.github.io/MIe-2026/cardinal.html):
+  November 5-6, 2026. Data manipulation, visualization, and statistical
+  analysis of mass spectrometry imaging (MSI) experiments using Cardinal and R:
+  the .imzML format and larger-than-memory datasets, preprocessing
+  (recalibration, peak picking, peak alignment, normalization), visualization of
+  spectra and ion images, then segmentation, classification, and hypothesis
+  testing. Taught by Kylie Bemis, Sai Srikanth Lakkimsetty, Ethan Rogers, and
+  Yinyue Zhu. Assumes basic familiarity with R.
+
+## Pages
+
+- [Home](https://vitek-lab.github.io/MIe-2026/): overview, full schedule, cost, sponsors
+- [Instructors](https://vitek-lab.github.io/MIe-2026/instructors.html): instructor
+  biographies for both courses, plus organizers
+- [Technical details](https://vitek-lab.github.io/MIe-2026/details.html): format,
+  office hours, software prerequisites, recordings
+
+## Related
+
+- [May Institute (in-person)](https://computationalproteomics.khoury.northeastern.edu):
+  the full in-person program, May 3-14, 2027, in Boston. May Institute
+  Essentials is the condensed virtual version.
+- [Olga Vitek Lab](https://olga-vitek-lab.khoury.northeastern.edu)
+- [MSstats](https://msstats.org)
+- [Cardinal](https://cardinalmsi.org)
