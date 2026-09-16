@@ -331,6 +331,8 @@ p:last-child { margin-bottom: 0; }
 .course { max-width: 46rem; }
 .course h3 { font-size: 1.2rem; margin-top: 2.75rem; margin-bottom: 0.75rem; }
 .course h3:first-of-type { margin-top: 0; }
+.course h4 { font-size: 1.02rem; margin-top: 1.9rem; margin-bottom: 0.6rem; color: var(--ink); }
+.course h4:first-of-type { margin-top: 0.5rem; }
 .course ol, .course ul.steps { padding-left: 1.25rem; margin: 0 0 1rem; }
 .course ol li, .course ul.steps li { margin-bottom: 0.5rem; padding-left: 0.25rem; }
 
@@ -398,6 +400,25 @@ code {
 @media (max-width: 560px) {
   .cslots li { grid-template-columns: 1fr; gap: 0.05rem; margin-bottom: 0.25rem; }
 }
+
+/* Other days in this course (on day pages) */
+.daynav { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.daynav a,
+.daynav .is-current {
+  display: block;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  font-size: 0.95rem;
+  color: var(--body);
+  transition: border-color .15s ease, color .15s ease;
+}
+.daynav a:hover { border-color: var(--red); color: var(--red); text-decoration: none; }
+.daynav .is-current { background: var(--surface); color: var(--muted); }
+.daynav__label { font-family: var(--font-head); font-weight: 700; color: var(--ink); margin-right: 0.35rem; }
+.daynav a:hover .daynav__label { color: var(--red); }
+.daynav .is-current .daynav__label { color: var(--muted); }
 
 /* ---------- Draft banner (local only; remove before deploy) ---------- */
 .draft-banner {

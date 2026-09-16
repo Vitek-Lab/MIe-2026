@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vitek-lab.github.io/MIe-2026/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vitek-lab.github.io/MIe-2026/msstats.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://vitek-lab.github.io/MIe-2026/msstats-day-1.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vitek-lab.github.io/MIe-2026/cardinal.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://vitek-lab.github.io/MIe-2026/msstats-day-2.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vitek-lab.github.io/MIe-2026/msstats-day-3.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vitek-lab.github.io/MIe-2026/cardinal-day-1.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vitek-lab.github.io/MIe-2026/cardinal-day-2.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>

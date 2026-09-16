@@ -26,30 +26,57 @@ Registration includes access to all sessions, interactive discussion with
 presenters, 1:1 office hours with the tool developers, presentation materials
 (slides, code, datasets), and early access to recordings.
 
-## Courses
+## Courses and sessions
 
-Days 1-3 cover MSstats; days 4-5 cover Cardinal.
+The week has five session days, each with its own page: three MSstats days
+(November 2-4) followed by two Cardinal days (November 5-6). Day numbers below
+are counted within each course, so Cardinal Day 1 is the fourth day of the week.
 
-- [MSstats: statistics for mass spectrometry proteomics](https://vitek-lab.github.io/MIe-2026/msstats.html):
-  November 2-4, 2026. Statistical analysis of quantitative MS-based proteomic
-  experiments with MSstats: normalization, missing value imputation,
-  summarization of protein abundances, confidence intervals for fold changes,
-  testing for differential abundance, and multivariate analysis for biomarker
-  discovery. Day 3 covers biological interpretation with MSstatsBioNet and
-  INDRA. Taught by Devon Kohler, Sarah Szvetecz, Tony Wu, and Benjamin Gyori.
-  Assumes some prior experience with statistics and proteomics.
-- [Cardinal: analysis of mass spectrometry imaging data](https://vitek-lab.github.io/MIe-2026/cardinal.html):
-  November 5-6, 2026. Data manipulation, visualization, and statistical
-  analysis of mass spectrometry imaging (MSI) experiments using Cardinal and R:
-  the .imzML format and larger-than-memory datasets, preprocessing
-  (recalibration, peak picking, peak alignment, normalization), visualization of
-  spectra and ion images, then segmentation, classification, and hypothesis
-  testing. Taught by Kylie Bemis, Sai Srikanth Lakkimsetty, Ethan Rogers, and
-  Yinyue Zhu. Assumes basic familiarity with R.
+### MSstats (November 2-4, 2026)
+
+Statistical analysis of quantitative MS-based proteomic experiments with
+MSstats: normalization, missing value imputation, summarization of protein
+abundances, confidence intervals for fold changes, testing for differential
+abundance, and multivariate analysis for biomarker discovery. Assumes some
+prior experience with statistics and proteomics.
+
+- [MSstats Day 1: Differential analysis of label-free proteomics experiments](https://vitek-lab.github.io/MIe-2026/msstats-day-1.html):
+  Monday, November 2, 2026. Taught by Devon Kohler, Sarah Szvetecz, and Tony Wu.
+  Session topics to be announced.
+- [MSstats Day 2: PTMs and chemoproteomics](https://vitek-lab.github.io/MIe-2026/msstats-day-2.html):
+  Tuesday, November 3, 2026. Taught by Devon Kohler, Sarah Szvetecz, and Tony
+  Wu. Session topics to be announced.
+- [MSstats Day 3: Interpretation with MSstatsBioNet and INDRA](https://vitek-lab.github.io/MIe-2026/msstats-day-3.html):
+  Wednesday, November 4, 2026. Taught by Tony Wu and Benjamin Gyori. The INDRA
+  system, the INDRA Database, Network Search tool, and Biomedical Discovery
+  Engine, then MSstatsBioNet for building experiment-specific biological
+  subnetworks from statistical results. Run through web interfaces, primarily
+  the INDRA Biomedical Discovery Engine at https://discovery.indra.bio; the
+  page also has optional instructions for installing INDRA
+  (https://www.indra.bio) locally.
+
+### Cardinal (November 5-6, 2026)
+
+Data manipulation, visualization, and statistical analysis of mass spectrometry
+imaging (MSI) experiments using Cardinal and R. Taught by Kylie Bemis, Sai
+Srikanth Lakkimsetty, Ethan Rogers, and Yinyue Zhu. Assumes basic familiarity
+with R.
+
+- [Cardinal Day 1: Introduction to Cardinal, preprocessing, and visualization](https://vitek-lab.github.io/MIe-2026/cardinal-day-1.html):
+  Thursday, November 5, 2026. Cardinal data structures and the .imzML format,
+  larger-than-memory datasets, preprocessing (recalibration, peak picking, peak
+  alignment, normalization), and visualization of spectra and ion images.
+- [Cardinal Day 2: Case studies on statistics and machine learning with MSI data](https://vitek-lab.github.io/MIe-2026/cardinal-day-2.html):
+  Friday, November 6, 2026. Region of interest discovery with univariate and
+  multivariate segmentation, then a case study of differential abundance
+  between ROIs and experimental conditions.
 
 ## Pages
 
 - [Home](https://vitek-lab.github.io/MIe-2026/): overview, full schedule, cost, sponsors
+- One page per session day, listed under Courses and sessions above. Each
+  carries that day's topic and schedule alongside the course background,
+  audience, installation instructions, materials, and links.
 - [Instructors](https://vitek-lab.github.io/MIe-2026/instructors.html): instructor
   biographies for both courses, plus organizers
 - [Technical details](https://vitek-lab.github.io/MIe-2026/details.html): format,

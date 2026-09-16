@@ -14,9 +14,14 @@ Plain static HTML/CSS/JS — no build step.
 index.html          Landing page: about, schedule, cost, sponsors
 instructors.html    Instructors (MSstats, Cardinal), organizing, and support
 details.html        Technical details (format, software, recordings)
-msstats.html        MSstats course page
-cardinal.html       Cardinal course page
-sitemap.xml         The five page URLs, for search engines
+msstats-day-1.html  MSstats Day 1 (Nov 2)
+msstats-day-2.html  MSstats Day 2 (Nov 3)
+msstats-day-3.html  MSstats Day 3 (Nov 4)
+cardinal-day-1.html Cardinal Day 1 (Nov 5)
+cardinal-day-2.html Cardinal Day 2 (Nov 6)
+msstats.html        Redirect stub for the retired MSstats course URL
+cardinal.html       Redirect stub for the retired Cardinal course URL
+sitemap.xml         Every content page URL, for search engines
 llms.txt            Plain-text program summary for AI tools
 assets/
   css/styles.css    Design system + layout (Lato + Inter, Northeastern red accent)
@@ -33,10 +38,25 @@ assets/
 ## Search and sharing metadata
 
 Each page carries a `<link rel="canonical">`, Open Graph and Twitter card tags,
-and a unique title/description. `index.html`, `msstats.html`, and
-`cardinal.html` also carry JSON-LD structured data (`EducationEvent` and
-`Course`) so search engines and AI tools can read the dates, price, and
-instructors directly.
+and a unique title/description. `index.html` and each of the five day pages
+also carry JSON-LD structured data (`EducationEvent` and `Course`) so search
+engines and AI tools can read the dates, price, and instructors directly.
+
+There is one page per session day, not one per course. Each day page carries
+that day's topic and schedule; the course background, audience, installation
+instructions, materials, and links are repeated on every day page of that
+course, so editing one of those sections means editing it on each day of the
+course.
+
+`msstats.html` and `cardinal.html` used to be single course pages covering all
+of a course's days. They are now redirect stubs that send visitors to
+`index.html#schedule`, since GitHub Pages cannot serve a real `301`: each one
+carries a zero-delay `<meta http-equiv="refresh">`, a `location.replace()` for
+browsers that block it, a `<link rel="canonical">` pointing at the site root so
+search engines transfer the old URLs' ranking, and a visible list of that
+course's day pages as a fallback. They are deliberately **not** in
+`sitemap.xml` — a sitemap should list destinations, not redirects. Delete both
+once the old URLs stop receiving traffic.
 
 When the program content changes, update these alongside it:
 

@@ -66,18 +66,16 @@ npx browser-sync start --config bs-config.js
 - **Landing page:** `index.html` — hero, about, schedule, cost, sponsors.
 - **Instructors:** `instructors.html`.
 - **Technical details:** `details.html`.
-- **Course pages:** `msstats.html` and `cardinal.html` — background, audience,
-  installation instructions, and links. Reached from the schedule on the landing page.
+- **Day pages:** `msstats-day-1.html` through `msstats-day-3.html` and
+  `cardinal-day-1.html`, `cardinal-day-2.html` — one page per session day, each
+  with that day's topic and schedule plus the course background, audience,
+  installation instructions, materials, and links. Reached from the schedule on
+  the landing page and from the "All days in this course" list on each day page.
+  The course-level sections are repeated on every day of a course, so a change
+  to background, audience, or installation needs to be made on each of that
+  course's day pages.
 - **Styles:** `assets/css/styles.css`.
 - **Logo:** `assets/img/logos/mie-logo.svg` (editable text).
 - **Photos:** `assets/img/scenes/` and `assets/img/speakers/`.
 
 Text lives directly in the HTML files — search for the words you want to change.
-
-## Before publishing
-
-- ~~Remove the `<div class="draft-banner">…</div>` line from each HTML page.~~ (done)
-- Replace the "Registration opens soon" button (`index.html`, `#register`) with the
-  real registration link once registration opens.
-- Fill in the real lecture titles/topics in the schedule (currently
-  "to be announced" / placeholder topics).

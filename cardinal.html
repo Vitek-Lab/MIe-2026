@@ -3,240 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cardinal: mass spectrometry imaging analysis in R &mdash; May Institute Essentials 2026</title>
-  <meta name="description" content="Cardinal: analysis of mass spectrometry imaging data. Course background, target audience, software, and installation instructions for May Institute Essentials 2026." />
-  <link rel="canonical" href="https://vitek-lab.github.io/MIe-2026/cardinal.html" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="May Institute Essentials 2026" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="Cardinal course &mdash; May Institute Essentials 2026" />
-  <meta property="og:description" content="Cardinal: analysis of mass spectrometry imaging data. Course background, target audience, software, and installation instructions for May Institute Essentials 2026." />
-  <meta property="og:url" content="https://vitek-lab.github.io/MIe-2026/cardinal.html" />
-  <meta property="og:image" content="https://vitek-lab.github.io/MIe-2026/assets/img/social/share-card.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Instructors and participants at a hands-on May Institute session, with R code on screen" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Redirect stub. The single Cardinal course page was replaced by one page per
+       session day; this keeps the old URL working. GitHub Pages cannot serve a
+       301, so the redirect happens in the browser. Safe to delete once the old
+       URL stops receiving traffic. -->
+  <meta http-equiv="refresh" content="0; url=index.html#schedule" />
+  <link rel="canonical" href="https://vitek-lab.github.io/MIe-2026/" />
+  <title>Moved &mdash; May Institute Essentials 2026</title>
   <link rel="icon" href="assets/img/favicon/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
-  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-152x152.png" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": "Analysis of mass spectrometry images with Cardinal",
-    "description": "Data manipulation, visualization, and statistical analysis of mass spectrometry imaging (MSI) experiments using Cardinal and R: Cardinal's data structures and the .imzML format, larger-than-memory datasets, preprocessing (recalibration, peak picking, peak alignment, normalization), visualization of spectra and ion images, and statistical and machine learning methods for segmentation, classification, and hypothesis testing.",
-    "url": "https://vitek-lab.github.io/MIe-2026/cardinal.html",
-    "image": "https://vitek-lab.github.io/MIe-2026/assets/img/social/share-card.jpg",
-    "provider": {
-      "@type": "Organization",
-      "name": "May Institute, Northeastern University",
-      "url": "https://computationalproteomics.khoury.northeastern.edu",
-      "parentOrganization": {
-        "@type": "CollegeOrUniversity",
-        "name": "Northeastern University",
-        "url": "https://www.northeastern.edu"
-      }
-    },
-    "inLanguage": "en",
-    "coursePrerequisites": "Comfort with the basics of R.",
-    "offers": [
-      {
-        "@type": "Offer",
-        "name": "Academic / non-profit",
-        "price": "50",
-        "priceCurrency": "USD",
-        "url": "https://vitek-lab.github.io/MIe-2026/#register",
-        "availability": "https://schema.org/PreOrder",
-        "category": "Academic, non-profit, and governmental"
-      },
-      {
-        "@type": "Offer",
-        "name": "Industry",
-        "price": "100",
-        "priceCurrency": "USD",
-        "url": "https://vitek-lab.github.io/MIe-2026/#register",
-        "availability": "https://schema.org/PreOrder",
-        "category": "Commercial organizations"
-      }
-    ],
-    "hasCourseInstance": {
-      "@type": "CourseInstance",
-      "courseMode": "Online",
-      "courseWorkload": "PT2H30M",
-      "startDate": "2026-11-05T10:00:00-05:00",
-      "endDate": "2026-11-06T12:30:00-05:00",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://vitek-lab.github.io/MIe-2026/"
-      },
-      "instructor": [
-        {
-          "@type": "Person",
-          "name": "Kylie Bemis"
-        },
-        {
-          "@type": "Person",
-          "name": "Sai Srikanth Lakkimsetty"
-        },
-        {
-          "@type": "Person",
-          "name": "Ethan Rogers"
-        },
-        {
-          "@type": "Person",
-          "name": "Yinyue Zhu"
-        }
-      ],
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "description": "2 online sessions, each 10:00 a.m. to 12:30 p.m. EST."
-    }
-  }
-  </script>
+  <script>location.replace("index.html#schedule");</script>
 </head>
 <body>
-
-  <header class="site-header">
-    <nav class="nav container" aria-label="Primary">
-      <a class="brand" href="index.html" aria-label="May Institute Essentials 2026 — home">
-        <img class="brand__logo" src="assets/img/logos/mie-logo.svg" alt="May Institute Essentials 2026" width="2100" height="560" />
-      </a>
-      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
-        <span></span>
-      </button>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__links">
-          <li><a href="index.html#schedule">Schedule</a></li>
-          <li><a href="index.html#cost">Cost</a></li>
-          <li><a href="instructors.html">Instructors</a></li>
-          <li><a href="details.html">Details</a></li>
-        </ul>
-        <div class="nav__cta">
-          <a class="btn btn--primary" href="index.html#register">Register</a>
-        </div>
-      </div>
-    </nav>
-  </header>
-
   <main>
     <section class="section">
       <div class="container">
         <div class="section__head">
-          <p class="section__eyebrow">Course · Cardinal</p>
-          <h1>Analysis of mass spectrometry images with Cardinal</h1>
-          <p class="section__lead">Days 1&ndash;2 · November 5&ndash;6, 2026 · 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. EST. Led by Kylie Bemis, Sai Srikanth Lakkimsetty, Ethan Rogers, and Yinyue Zhu.</p>
+          <p class="section__eyebrow">This page has moved</p>
+          <h1>Cardinal now has one page per session day</h1>
+          <p class="section__lead">You are being taken to the <a href="index.html#schedule">schedule</a>, which links to every session.</p>
         </div>
-
         <div class="course">
-          <h3>Background</h3>
-          <p>This course covers the basics of data manipulation, visualization, and statistical analysis of mass spectrometry imaging (MSI) experiments using <a href="https://cardinalmsi.org" target="_blank" rel="noopener">Cardinal</a> and R. We begin by introducing the fundamental ways of interacting with MSI datasets and experimental metadata in Cardinal, followed by preprocessing and visualization of mass spectra and ion images. We then demonstrate the application and interpretation of statistical and machine learning methods for segmentation, classification, and hypothesis testing. Sessions mix lectures with code demonstrations using datasets from public repositories such as PRIDE and MassIVE.</p>
-
-          <h3>Who it&rsquo;s for</h3>
-          <p>Biologists, chemists, bioinformaticians, computer scientists, data scientists, statisticians, and engineers who are comfortable with the basics of R and interested in working with MSI data in Cardinal.</p>
-
-          <h3>Schedule</h3>
-          <p>Two online sessions, each 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. EST (7:00&ndash;9:30&nbsp;a.m. PST&nbsp;·&nbsp;4:00&ndash;6:30&nbsp;p.m. CET). Every day follows the same format: two one-hour lectures with a short break, followed by general discussion. Lecture titles will be added as the program is finalized.</p>
-          <div class="cschedule">
-            <div class="cday">
-              <div class="cday__head">Day 1 &middot; Thursday, Nov 5</div>
-              <ul class="cslots">
-                <li><span class="cslots__time">10:00&ndash;11:00</span> <span class="cslots__what">Lecture 1 &mdash; to be announced</span></li>
-                <li class="is-break"><span class="cslots__time">11:00&ndash;11:15</span> <span class="cslots__what">Break and questions</span></li>
-                <li><span class="cslots__time">11:15&ndash;12:15</span> <span class="cslots__what">Lecture 2 &mdash; to be announced</span></li>
-                <li><span class="cslots__time">12:15&ndash;12:30</span> <span class="cslots__what">General discussion</span></li>
-              </ul>
-            </div>
-            <div class="cday">
-              <div class="cday__head">Day 2 &middot; Friday, Nov 6</div>
-              <ul class="cslots">
-                <li><span class="cslots__time">10:00&ndash;11:00</span> <span class="cslots__what">Lecture 1 &mdash; to be announced</span></li>
-                <li class="is-break"><span class="cslots__time">11:00&ndash;11:15</span> <span class="cslots__what">Break and questions</span></li>
-                <li><span class="cslots__time">11:15&ndash;12:15</span> <span class="cslots__what">Lecture 2 &mdash; to be announced</span></li>
-                <li><span class="cslots__time">12:15&ndash;12:30</span> <span class="cslots__what">General discussion</span></li>
-              </ul>
-            </div>
-          </div>
-
-          <h3>Software and installation</h3>
-          <p>If you would like to follow along with the code demonstrations, please install the software below ahead of time. We will use recent versions of R and Bioconductor:</p>
-          <ul class="steps">
-            <li><a href="https://cran.r-project.org" target="_blank" rel="noopener">R</a> (&ge;&nbsp;4.6)</li>
-            <li><a href="https://bioconductor.org/install/" target="_blank" rel="noopener">Bioconductor</a> (current release)</li>
-            <li><a href="https://bioconductor.org/packages/Cardinal/" target="_blank" rel="noopener">Cardinal</a></li>
-            <li><a href="https://bioconductor.org/packages/CardinalWorkflows/" target="_blank" rel="noopener">CardinalWorkflows</a> (example datasets and workflows)</li>
-          </ul>
-          <p>Please install or update to these versions if you wish to follow along with the examples.</p>
-
-          <ol>
-            <li>Install <strong>R (&ge;&nbsp;4.6)</strong> from <a href="https://cran.r-project.org" target="_blank" rel="noopener">CRAN</a>, and (recommended) <a href="https://posit.co/downloads/" target="_blank" rel="noopener">RStudio Desktop</a>. On <strong>Windows</strong>, also install <a href="https://cran.r-project.org/bin/windows/Rtools/" target="_blank" rel="noopener">Rtools</a>.</li>
-            <li>Open R or RStudio and run the installation code below in the console.</li>
-          </ol>
-
-          <pre class="code"><code>if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install(c("Cardinal", "CardinalWorkflows"))</code></pre>
-
-          <h3>Materials</h3>
-          <p>Presentation slides, code, and datasets are shared with registered participants ahead of each session, and recordings are published afterward.</p>
-
-          <h3>Links and resources</h3>
           <ul class="reslinks">
-            <li><a href="https://cardinalmsi.org" target="_blank" rel="noopener">Cardinal project site</a></li>
-            <li><a href="https://bioconductor.org/packages/Cardinal/" target="_blank" rel="noopener">Cardinal on Bioconductor</a></li>
-            <li><a href="https://bioconductor.org/packages/CardinalWorkflows/" target="_blank" rel="noopener">CardinalWorkflows on Bioconductor</a></li>
-            <li><a href="https://bioconductor.org/install/" target="_blank" rel="noopener">Installing Bioconductor</a></li>
-            <li><a href="https://cran.r-project.org" target="_blank" rel="noopener">Download R (CRAN)</a></li>
-            <li><a href="https://posit.co/downloads/" target="_blank" rel="noopener">Download RStudio Desktop</a></li>
+            <li><a href="cardinal-day-1.html">Cardinal Day 1 &mdash; Introduction to Cardinal, preprocessing, and visualization</a></li>
+            <li><a href="cardinal-day-2.html">Cardinal Day 2 &mdash; Case studies on statistics and machine learning with MSI data</a></li>
+            <li><a href="index.html#schedule">Full schedule</a></li>
           </ul>
-
-          <p style="margin-top: 2.5rem;"><a class="btn btn--ghost" href="index.html#schedule">&larr; Back to schedule</a></p>
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer__grid">
-        <div>
-          <div class="footer__brand">May Institute Essentials 2026</div>
-          <p>A condensed, fully virtual May Institute for computation and statistics in mass spectrometry&ndash;based proteomics.</p>
-        </div>
-        <div class="footer">
-          <h3>Program</h3>
-          <ul>
-            <li><a href="index.html#schedule">Schedule</a></li>
-            <li><a href="index.html#cost">Cost</a></li>
-            <li><a href="instructors.html">Instructors</a></li>
-            <li><a href="details.html">Technical details</a></li>
-          </ul>
-        </div>
-        <div class="footer">
-          <h3>Related</h3>
-          <ul>
-            <li><a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank" rel="noopener">May Institute</a></li>
-            <li><a href="https://olga-vitek-lab.khoury.northeastern.edu" target="_blank" rel="noopener">Olga Vitek Lab</a></li>
-            <li><a href="https://www.khoury.northeastern.edu" target="_blank" rel="noopener">Khoury College</a></li>
-            <li><a href="https://research.northeastern.edu/institute-or-center/barnett-institute-of-chemical-and-biological-analysis/" target="_blank" rel="noopener">Barnett Institute</a></li>
-            <li><a href="mailto:mayinstitute@northeastern.edu">mayinstitute@northeastern.edu</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__legal">
-        &copy; 2026 May Institute, Northeastern University.
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
