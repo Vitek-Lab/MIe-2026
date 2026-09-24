@@ -95,7 +95,6 @@ The live site updates a minute or so after the build completes.
 
 ## Still to do
 
-- Wire the "Registration opens soon" button to the real registration link once it opens.
 - Get the site linked from the May Institute, Vitek Lab, MSstats, and Cardinal
   sites. Inbound links matter more for discoverability than any on-page change.
 - Verify the site in Google Search Console and submit `sitemap.xml` directly.

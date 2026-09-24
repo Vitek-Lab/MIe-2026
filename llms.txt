@@ -16,8 +16,9 @@ Site: https://vitek-lab.github.io/MIe-2026/
   or computational proteomics
 - Cost: $50 academic, non-profit, and governmental; $100 commercial. A single
   fee covers the full week.
-- Registration: not yet open as of this writing. The registration link will
-  appear at https://vitek-lab.github.io/MIe-2026/#register
+- Registration: open. Register at https://commerce.cashnet.com/SFMI
+  (Northeastern University payment portal), linked from
+  https://vitek-lab.github.io/MIe-2026/#register
 - Contact: mayinstitute@northeastern.edu
 - Host: May Institute, Barnett Institute and Khoury College of Computer
   Sciences, Northeastern University
