@@ -11,7 +11,7 @@ Site: https://vitek-lab.github.io/MIe-2026/
 
 - Dates: November 2-6, 2026 (Monday through Friday)
 - Time: 10:00 a.m. - 12:30 p.m. EST each day (7:00-9:30 a.m. PST, 4:00-6:30 p.m. CET)
-- Format: fully online; five sessions, one per day
+- Format: fully online via Zoom webinars; five sessions, one per day
 - Audience: early career researchers and established scientists in experimental
   or computational proteomics
 - Cost: $50 academic, non-profit, and governmental; $100 commercial. A single
