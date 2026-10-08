@@ -1,7 +1,7 @@
 # May Institute Essentials 2026 (MIe2026)
 
 Website for **May Institute Essentials** — a condensed, fully virtual version of the May Institute.
-November 2–6, 2026, online via Zoom webinars, 10:00 a.m.–12:30 p.m. EST.
+November 2–6, 2026, online via Zoom webinars, 10:00 a.m.–12:30 p.m. Boston time (EST, UTC−5).
 
 Plain static HTML/CSS/JS — no build step.
 

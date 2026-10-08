@@ -30,6 +30,13 @@
 </head>
 <body>
 
+ <!-- Clock-change notice. Safe to remove after the program ends (November 6, 2026). -->
+  <div class="notice-banner" role="note">
+    <div class="container">
+      <strong>Clock change:</strong> US clocks move back one hour on Sunday, November&nbsp;1, the day before the program begins. Sessions run 10:00&nbsp;a.m.&ndash;12:30&nbsp;p.m. Boston time (EST). <a href="details.html#time">Check the time in your time zone</a>.
+    </div>
+  </div>
+
   <header class="site-header">
     <nav class="nav container" aria-label="Primary">
       <a class="brand" href="index.html" aria-label="May Institute Essentials 2026 — home">
@@ -62,7 +69,50 @@
         </div>
 
         <div style="max-width: 46rem;">
-          <h3>Format</h3>
+          <h3 id="time">Session times</h3>
+          <p>Sessions run Monday, November 2 through Friday, November 6, 2026, from 10:00 a.m. to 12:30 p.m. Boston time (Eastern Standard Time, UTC&minus;5). This is 15:00&ndash;17:30 UTC, or 7:00&ndash;9:30 a.m. PST, 3:00&ndash;5:30 p.m. GMT, and 4:00&ndash;6:30 p.m. CET.</p>
+          <!-- Filled in by assets/js/main.js; stays hidden without JavaScript (the fixed times above still apply). -->
+          <div class="tzbox" data-tzbox hidden>
+            <p class="tzbox__detected">Your time zone was detected as <strong data-tz-detected></strong>.</p>
+            <label class="tzbox__label" for="tz-select">Show session times for</label>
+            <select class="tzbox__select" id="tz-select" data-tz-select>
+              <option value="" data-tz-detected-option>Your time zone</option>
+              <option value="America/Los_Angeles">US Pacific (UTC&minus;8): Los Angeles, Seattle, Vancouver</option>
+              <option value="America/Denver">US Mountain (UTC&minus;7): Denver, Phoenix, Calgary</option>
+              <option value="America/Chicago">US Central (UTC&minus;6): Chicago, Houston, Mexico City</option>
+              <option value="America/New_York">US Eastern (UTC&minus;5): Boston, New York, Toronto</option>
+              <option value="Europe/London">UK and Western Europe (UTC+0): Dublin, London, Lisbon</option>
+              <option value="Europe/Berlin">Central Europe (UTC+1): Madrid, Berlin, Warsaw</option>
+              <option value="Asia/Jerusalem">Eastern Mediterranean (UTC+2): Athens, Cairo, Jerusalem</option>
+              <option value="Asia/Riyadh">Turkey and Arabian Peninsula (UTC+3): Istanbul, Riyadh, Doha</option>
+              <option value="Asia/Dubai">Gulf and Caucasus (UTC+4): Tbilisi, Baku, Dubai</option>
+              <option value="Asia/Kolkata">India and Sri Lanka (UTC+5:30): Mumbai, Colombo, Kolkata</option>
+              <option value="Asia/Shanghai">China and Singapore (UTC+8): Singapore, Beijing, Shanghai</option>
+            </select>
+            <p class="tzbox__zone">Times shown in <span data-tz-zone></span>.</p>
+            <table class="tzbox__table">
+              <tbody>
+                <tr data-start="2026-11-02T10:00:00-05:00" data-end="2026-11-02T12:30:00-05:00">
+                  <th scope="row"><a href="msstats-day-1.html">MSstats Day 1</a></th><td data-tz-date></td><td data-tz-time></td>
+                </tr>
+                <tr data-start="2026-11-03T10:00:00-05:00" data-end="2026-11-03T12:30:00-05:00">
+                  <th scope="row"><a href="msstats-day-2.html">MSstats Day 2</a></th><td data-tz-date></td><td data-tz-time></td>
+                </tr>
+                <tr data-start="2026-11-04T10:00:00-05:00" data-end="2026-11-04T12:30:00-05:00">
+                  <th scope="row"><a href="msstats-day-3.html">MSstats Day 3</a></th><td data-tz-date></td><td data-tz-time></td>
+                </tr>
+                <tr data-start="2026-11-05T10:00:00-05:00" data-end="2026-11-05T12:30:00-05:00">
+                  <th scope="row"><a href="cardinal-day-1.html">Cardinal Day 1</a></th><td data-tz-date></td><td data-tz-time></td>
+                </tr>
+                <tr data-start="2026-11-06T10:00:00-05:00" data-end="2026-11-06T12:30:00-05:00">
+                  <th scope="row"><a href="cardinal-day-2.html">Cardinal Day 2</a></th><td data-tz-date></td><td data-tz-time></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Daylight saving time ends in the United States on Sunday, November 1, the day before the program begins, when clocks move back one hour. Clocks in the UK and the European Union moved back one week earlier, on October 25. During the program, Boston is therefore 5 hours behind London and 6 hours behind Central Europe, the same difference as in summer. All times listed on this site already reflect these changes. If you added the sessions to your calendar manually, please check that they appear at the correct local time.</p>
+
+          <h3 style="margin-top: 2rem;">Format</h3>
           <p>Sessions are held online as Zoom webinars. Webinar links will be shared with registered participants by email. Please ensure you will have access to a computer that can join Zoom webinars prior to registration.</p>
 
           <h3 style="margin-top: 2rem;">Office Hours</h3>

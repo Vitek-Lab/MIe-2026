@@ -10,7 +10,11 @@ Site: https://vitek-lab.github.io/MIe-2026/
 ## Program at a glance
 
 - Dates: November 2-6, 2026 (Monday through Friday)
-- Time: 10:00 a.m. - 12:30 p.m. EST each day (7:00-9:30 a.m. PST, 4:00-6:30 p.m. CET)
+- Time: 10:00 a.m. - 12:30 p.m. Boston time (EST, UTC-5) each day, which is
+  15:00-17:30 UTC (7:00-9:30 a.m. PST, 3:00-5:30 p.m. GMT, 4:00-6:30 p.m. CET).
+  US clocks move back one hour on Sunday, November 1, 2026, the day before the
+  program begins; Europe moved back on October 25, 2026. These times already
+  reflect both changes.
 - Format: fully online via Zoom webinars; five sessions, one per day
 - Audience: early career researchers and established scientists in experimental
   or computational proteomics

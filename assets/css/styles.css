@@ -126,6 +126,17 @@ p:last-child { margin-bottom: 0; }
   border-color: var(--border);
 }
 
+/* ---------- Notice banner (above the header; scrolls away, header stays sticky) ---------- */
+.notice-banner {
+  background: var(--red-tint);
+  color: var(--ink);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding-block: 0.6rem;
+}
+.notice-banner strong { color: var(--red-dark); }
+
 /* ---------- Header / nav ---------- */
 .site-header {
   position: sticky;
@@ -241,6 +252,39 @@ p:last-child { margin-bottom: 0; }
 .day__track { display: inline-block; font-size: 0.78rem; font-weight: 600; color: var(--red-dark); background: var(--red-tint); padding: 0.15rem 0.5rem; border-radius: 6px; margin-bottom: 0.5rem; }
 .day__people { color: var(--muted); font-size: 0.95rem; }
 .schedule__note { margin-top: 1.25rem; font-size: 0.9rem; color: var(--muted); }
+
+/* ---------- Time zone box (details page) ---------- */
+.tzbox {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--red);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem 1.5rem;
+  margin: 1.25rem 0 1.5rem;
+}
+.tzbox__detected { margin: 0 0 1rem; }
+.tzbox__label { display: block; font-size: 0.9rem; font-weight: 600; color: var(--ink); margin-bottom: 0.35rem; }
+.tzbox__select {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.6rem;
+  max-width: 100%;
+}
+.tzbox__zone { font-size: 0.9rem; color: var(--muted); margin: 1rem 0 0.5rem; }
+.tzbox__table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.tzbox__table th, .tzbox__table td { text-align: left; padding: 0.45rem 0.75rem 0.45rem 0; border-top: 1px solid var(--border); vertical-align: top; }
+.tzbox__table th { font-weight: 600; white-space: nowrap; }
+.tzbox__table td[data-tz-date] { white-space: nowrap; }
+@media (max-width: 560px) {
+  .tzbox { padding: 1rem; }
+  .tzbox__table tr { display: grid; grid-template-columns: auto 1fr; column-gap: 0.75rem; border-top: 1px solid var(--border); padding: 0.45rem 0; }
+  .tzbox__table th, .tzbox__table td { border-top: 0; padding: 0; }
+  .tzbox__table th { grid-column: 1 / -1; }
+}
 
 /* ---------- Pricing ---------- */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
