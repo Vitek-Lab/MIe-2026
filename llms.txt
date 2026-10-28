@@ -51,14 +51,15 @@ prior experience with statistics and proteomics.
 - [MSstats Day 2: PTMs and chemoproteomics](https://vitek-lab.github.io/MIe-2026/msstats-day-2.html):
   Tuesday, November 3, 2026. Taught by Devon Kohler, Sarah Szvetecz, and Tony
   Wu. Session topics to be announced.
-- [MSstats Day 3: Interpretation with MSstatsBioNet and INDRA](https://vitek-lab.github.io/MIe-2026/msstats-day-3.html):
+- [MSstats Day 3: Interpretation of proteomic experiments in the context of biomolecular networks](https://vitek-lab.github.io/MIe-2026/msstats-day-3.html):
   Wednesday, November 4, 2026. Taught by Tony Wu and Benjamin Gyori. The INDRA
-  system, the INDRA Database, Network Search tool, and Biomedical Discovery
-  Engine, then MSstatsBioNet for building experiment-specific biological
+  system and the INDRA Biomedical Discovery Engine, then MSstatsBioNet, a
+  web-based application for building experiment-specific biological
   subnetworks from statistical results. Run through web interfaces, primarily
-  the INDRA Biomedical Discovery Engine at https://discovery.indra.bio; the
-  page also has optional instructions for installing INDRA
-  (https://www.indra.bio) locally.
+  the INDRA Biomedical Discovery Engine at https://discovery.indra.bio, with
+  options shown for programmatic and agent-driven workflows. The page also
+  has optional instructions for installing INDRA (https://www.indra.bio)
+  locally.
 
 ### Cardinal (November 5-6, 2026)
 
