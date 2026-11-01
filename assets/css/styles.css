@@ -316,6 +316,21 @@ p:last-child { margin-bottom: 0; }
 .includes li::before { content: ""; position: absolute; left: 0.15rem; top: 0.62em; width: 7px; height: 7px; border-radius: 50%; background: var(--red); }
 .includes__note { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); max-width: 44rem; }
 
+/* Participant support box (under the hero) */
+.support {
+  margin-top: 2rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  background: var(--bg);
+  box-shadow: var(--shadow-sm);
+}
+.support h2 { font-size: 1.25rem; margin-bottom: 0.85rem; }
+.support ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.55rem; max-width: 44rem; }
+.support li { position: relative; padding-left: 1.65rem; color: var(--body); }
+.support li::before { content: ""; position: absolute; left: 0.15rem; top: 0.62em; width: 7px; height: 7px; border-radius: 50%; background: var(--red); }
+
 /* ---------- Speakers ---------- */
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.75rem; align-items: start; }
 .person { text-align: left; }

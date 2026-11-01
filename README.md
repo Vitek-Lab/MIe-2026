@@ -64,6 +64,10 @@ When the program content changes, update these alongside it:
   page's `<head>`, and `llms.txt`.
 - **Registration opening** — `offers.availability` in the JSON-LD (`PreOrder`
   becomes `InStock`), `offers.url`, and the registration line in `llms.txt`.
+- **Registration closing** — `offers.availability` in the JSON-LD (`InStock`
+  becomes `SoldOut`, the closest value Google supports), the nav and hero
+  Register buttons, the `#register` block in `index.html`, and the registration
+  line in `llms.txt`.
 - **Adding or removing a page** — `sitemap.xml` (including `lastmod`) and the
   page list in `llms.txt`.
 - **Moving to a custom domain** — the absolute URLs in `sitemap.xml`,

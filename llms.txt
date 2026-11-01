@@ -12,17 +12,18 @@ Site: https://vitek-lab.github.io/MIe-2026/
 - Dates: November 2-6, 2026 (Monday through Friday)
 - Time: 10:00 a.m. - 12:30 p.m. Boston time (EST, UTC-5) each day, which is
   15:00-17:30 UTC (7:00-9:30 a.m. PST, 3:00-5:30 p.m. GMT, 4:00-6:30 p.m. CET).
-  US clocks move back one hour on Sunday, November 1, 2026, the day before the
-  program begins; Europe moved back on October 25, 2026. These times already
+  US clocks moved back one hour on Sunday, November 1, 2026, the day before the
+  program began; Europe moved back on October 25, 2026. These times already
   reflect both changes.
 - Format: fully online via Zoom webinars; five sessions, one per day
 - Audience: early career researchers and established scientists in experimental
   or computational proteomics
 - Cost: $50 academic, non-profit, and governmental; $100 commercial. A single
   fee covers the full week.
-- Registration: open. Register at https://commerce.cashnet.com/SFMI
-  (Northeastern University payment portal), linked from
-  https://vitek-lab.github.io/MIe-2026/#register
+- Registration: closed. Questions can be sent to mayinstitute@northeastern.edu.
+- Support for registered participants: Zoom webinar links are emailed each
+  morning before the session (check spam or junk folders); see
+  https://vitek-lab.github.io/MIe-2026/#support
 - Contact: mayinstitute@northeastern.edu
 - Host: May Institute, Barnett Institute and Khoury College of Computer
   Sciences, Northeastern University
