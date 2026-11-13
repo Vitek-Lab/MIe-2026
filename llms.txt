@@ -2,8 +2,8 @@
 
 > May Institute Essentials is a condensed, fully virtual version of the May
 > Institute, covering computation and statistics for mass spectrometry-based
-> proteomics. It runs November 2-6, 2026, online. Sessions are led by the
-> developers of the methods and software they teach.
+> proteomics. The 2026 program took place online November 2-6, 2026. Sessions
+> were led by the developers of the methods and software they teach.
 
 Site: https://vitek-lab.github.io/MIe-2026/
 
@@ -12,23 +12,17 @@ Site: https://vitek-lab.github.io/MIe-2026/
 - Dates: November 2-6, 2026 (Monday through Friday)
 - Time: 10:00 a.m. - 12:30 p.m. Boston time (EST, UTC-5) each day, which is
   15:00-17:30 UTC (7:00-9:30 a.m. PST, 3:00-5:30 p.m. GMT, 4:00-6:30 p.m. CET).
-  US clocks moved back one hour on Sunday, November 1, 2026, the day before the
-  program began; Europe moved back on October 25, 2026. These times already
-  reflect both changes.
 - Format: fully online via Zoom webinars; five sessions, one per day
 - Audience: early career researchers and established scientists in experimental
   or computational proteomics
 - Cost: $50 academic, non-profit, and governmental; $100 commercial. A single
   fee covers the full week.
 - Registration: closed. Questions can be sent to mayinstitute@northeastern.edu.
-- Support for registered participants: Zoom webinar links are emailed each
-  morning before the session (check spam or junk folders); see
-  https://vitek-lab.github.io/MIe-2026/#support
 - Contact: mayinstitute@northeastern.edu
 - Host: May Institute, Barnett Institute and Khoury College of Computer
   Sciences, Northeastern University
 
-Registration includes access to all sessions, interactive discussion with
+Registration included access to all sessions, interactive discussion with
 presenters, 1:1 office hours with the tool developers, presentation materials
 (slides, code, datasets), and early access to recordings.
 
@@ -48,10 +42,15 @@ prior experience with statistics and proteomics.
 
 - [MSstats Day 1: Differential analysis of label-free proteomics experiments](https://vitek-lab.github.io/MIe-2026/msstats-day-1.html):
   Monday, November 2, 2026. Taught by Devon Kohler, Sarah Szvetecz, and Tony Wu.
-  Session topics to be announced.
+  A complete DIA workflow from DIA-NN and Spectronaut reports to differential
+  abundance results: normalization, missing values, feature selection, protein
+  summarization, and choosing a statistical model for the design. Run through
+  web interfaces; no programming experience needed.
 - [MSstats Day 2: PTMs and chemoproteomics](https://vitek-lab.github.io/MIe-2026/msstats-day-2.html):
   Tuesday, November 3, 2026. Taught by Devon Kohler, Sarah Szvetecz, and Tony
-  Wu. Session topics to be announced.
+  Wu. Differential PTM abundance with MSstatsPTM, accounting for changes in
+  overall protein abundance, then dose-response modeling of chemoproteomics
+  experiments with MSstatsResponse.
 - [MSstats Day 3: Interpretation of proteomic experiments in the context of biomolecular networks](https://vitek-lab.github.io/MIe-2026/msstats-day-3.html):
   Wednesday, November 4, 2026. Taught by Tony Wu and Benjamin Gyori. The INDRA
   system and the INDRA Biomedical Discovery Engine, then MSstatsBioNet, a
@@ -86,8 +85,8 @@ with R.
   audience, installation instructions, materials, and links.
 - [Instructors](https://vitek-lab.github.io/MIe-2026/instructors.html): instructor
   biographies for both courses, plus organizers
-- [Technical details](https://vitek-lab.github.io/MIe-2026/details.html): format,
-  office hours, software prerequisites, recordings
+- [Technical details](https://vitek-lab.github.io/MIe-2026/details.html): session
+  times, format, office hours, software prerequisites
 
 ## Related
 

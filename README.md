@@ -1,19 +1,23 @@
 # May Institute Essentials 2026 (MIe2026)
 
 Website for **May Institute Essentials** — a condensed, fully virtual version of the May Institute.
-November 2–6, 2026, online via Zoom webinars, 10:00 a.m.–12:30 p.m. Boston time (EST, UTC−5).
+Held November 2–6, 2026, online via Zoom webinars, 10:00 a.m.–12:30 p.m. Boston time (EST, UTC−5).
+
+> **Status:** The program has ended. The site is kept online as a record of the
+> 2026 program. The participant support box and the time-zone tool used during
+> the event have been removed, and the remaining text is in the past tense.
 
 Plain static HTML/CSS/JS — no build step.
 
 > **Live:** https://vitek-lab.github.io/MIe-2026/
-> Published via GitHub Pages from the **Vitek-Lab/MIe-2026** repository (private repo, public site).
+> Published via GitHub Pages from the **Vitek-Lab/MIe-2026** repository (public repo).
 
 ## Structure
 
 ```
 index.html          Landing page: about, schedule, cost, sponsors
 instructors.html    Instructors (MSstats, Cardinal), organizing, and support
-details.html        Technical details (format, software, recordings)
+details.html        Technical details (session times, format, software)
 msstats-day-1.html  MSstats Day 1 (Nov 2)
 msstats-day-2.html  MSstats Day 2 (Nov 3)
 msstats-day-3.html  MSstats Day 3 (Nov 4)
@@ -62,12 +66,6 @@ When the program content changes, update these alongside it:
 
 - **Dates, times, price, or instructors** — the JSON-LD block in the affected
   page's `<head>`, and `llms.txt`.
-- **Registration opening** — `offers.availability` in the JSON-LD (`PreOrder`
-  becomes `InStock`), `offers.url`, and the registration line in `llms.txt`.
-- **Registration closing** — `offers.availability` in the JSON-LD (`InStock`
-  becomes `SoldOut`, the closest value Google supports), the nav and hero
-  Register buttons, the `#register` block in `index.html`, and the registration
-  line in `llms.txt`.
 - **Adding or removing a page** — `sitemap.xml` (including `lastmod`) and the
   page list in `llms.txt`.
 - **Moving to a custom domain** — the absolute URLs in `sitemap.xml`,
